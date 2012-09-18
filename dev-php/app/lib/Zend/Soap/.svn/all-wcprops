@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/sd-detachering/!svn/ver/5/trunk/dev-php/app/lib/Zend/Soap
+END
+Wsdl.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/sd-detachering/!svn/ver/5/trunk/dev-php/app/lib/Zend/Soap/Wsdl.php
+END
+Client.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/sd-detachering/!svn/ver/5/trunk/dev-php/app/lib/Zend/Soap/Client.php
+END
+Server.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/sd-detachering/!svn/ver/5/trunk/dev-php/app/lib/Zend/Soap/Server.php
+END
+AutoDiscover.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/sd-detachering/!svn/ver/5/trunk/dev-php/app/lib/Zend/Soap/AutoDiscover.php
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/sd-detachering/!svn/ver/5/trunk/dev-php/app/lib/Zend/Json
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/sd-detachering/!svn/ver/5/trunk/dev-php/app/lib/Zend/Json/Exception.php
+END
+Expr.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/sd-detachering/!svn/ver/5/trunk/dev-php/app/lib/Zend/Json/Expr.php
+END
+Encoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/sd-detachering/!svn/ver/5/trunk/dev-php/app/lib/Zend/Json/Encoder.php
+END
+Decoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/sd-detachering/!svn/ver/5/trunk/dev-php/app/lib/Zend/Json/Decoder.php
+END
+Server.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/sd-detachering/!svn/ver/5/trunk/dev-php/app/lib/Zend/Json/Server.php
+END

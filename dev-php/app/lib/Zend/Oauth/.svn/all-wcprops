@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/sd-detachering/!svn/ver/5/trunk/dev-php/app/lib/Zend/Oauth
+END
+Consumer.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/sd-detachering/!svn/ver/5/trunk/dev-php/app/lib/Zend/Oauth/Consumer.php
+END
+Client.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/sd-detachering/!svn/ver/5/trunk/dev-php/app/lib/Zend/Oauth/Client.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/sd-detachering/!svn/ver/5/trunk/dev-php/app/lib/Zend/Oauth/Exception.php
+END
+Http.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/sd-detachering/!svn/ver/5/trunk/dev-php/app/lib/Zend/Oauth/Http.php
+END
+Token.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/sd-detachering/!svn/ver/5/trunk/dev-php/app/lib/Zend/Oauth/Token.php
+END
+Config.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/sd-detachering/!svn/ver/5/trunk/dev-php/app/lib/Zend/Oauth/Config.php
+END

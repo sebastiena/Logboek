@@ -1,0 +1,3 @@
+<section>
+<?php echo $content; ?>
+</section>

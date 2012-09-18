@@ -1,0 +1,68 @@
+# ============================================================================ #
+# Proximity devphp framework config
+# ============================================================================ #
+admin:
+  login: 
+  password: 
+
+# ============================================================================ #
+# Database settings
+# ============================================================================ #
+db_DEVELOPMENT:
+  adapter: mysqli
+  host: 127.0.0.1
+  db: sdworx_detachering
+  user: root
+  password:
+  table: users
+
+db_STAGING:
+  adapter: mysqli
+  host: BBDNS-DB02.bbdohosting.lcl
+  db: hronsite
+  user: hronsite
+  password: Na7erep9
+  table: users
+
+db_PRODUCTION:
+  adapter: mysqli
+  host: BBDNS-DB02.bbdohosting.lcl
+  db: hronsite
+  user: hronsite
+  password: Na7erep9
+  table: users
+
+# ============================================================================ #
+# Multilang options
+# ============================================================================ #
+multilang:
+  default: nl-BE
+  # dir: assets/locales/ # from root, default is assets/locales
+  langs:
+    - lang: NL
+      iso: nl-BE
+    - lang: FR
+      iso: fr-BE
+
+# ============================================================================ #
+# TESTING
+# ============================================================================ #
+verbose: false
+
+# ============================================================================ #
+# EMAILS
+# ============================================================================ #
+mail_to_mail: dimitri.eulaers@sdworx.com
+mail_to_name: Dimitri Eulaers
+mail_from_mail: dimitri.eulaers@sdworx.com
+mail_from_name: Dimitri Eulaers
+mail_reply_mail: dimitri.eulaers@sdworx.com
+mail_reply_name: No Reply
+
+# ============================================================================ #
+# XPORTER
+# ============================================================================ #
+# xporter:
+#   active: true
+#   base_url: 'http://dev.local'
+#   base_path: '/home'

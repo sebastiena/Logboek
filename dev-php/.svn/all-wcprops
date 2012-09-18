@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/sd-detachering/!svn/ver/49/trunk/dev-php
+END
+web.config
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/sd-detachering/!svn/ver/5/trunk/dev-php/web.config
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/sd-detachering/!svn/ver/5/trunk/dev-php/.gitignore
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/sd-detachering/!svn/ver/5/trunk/dev-php/.htaccess
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/sd-detachering/!svn/ver/5/trunk/dev-php/index.php
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/sd-detachering/!svn/ver/5/trunk/dev-php/app/lib/Zend/Db/Table/Row
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sd-detachering/!svn/ver/5/trunk/dev-php/app/lib/Zend/Db/Table/Row/Exception.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sd-detachering/!svn/ver/5/trunk/dev-php/app/lib/Zend/Db/Table/Row/Abstract.php
+END

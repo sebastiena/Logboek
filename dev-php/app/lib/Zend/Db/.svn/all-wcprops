@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/sd-detachering/!svn/ver/5/trunk/dev-php/app/lib/Zend/Db
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/sd-detachering/!svn/ver/5/trunk/dev-php/app/lib/Zend/Db/Exception.php
+END
+Expr.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/sd-detachering/!svn/ver/5/trunk/dev-php/app/lib/Zend/Db/Expr.php
+END
+Select.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/sd-detachering/!svn/ver/5/trunk/dev-php/app/lib/Zend/Db/Select.php
+END
+Profiler.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/sd-detachering/!svn/ver/5/trunk/dev-php/app/lib/Zend/Db/Profiler.php
+END
+Statement.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/sd-detachering/!svn/ver/5/trunk/dev-php/app/lib/Zend/Db/Statement.php
+END
+Table.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/sd-detachering/!svn/ver/5/trunk/dev-php/app/lib/Zend/Db/Table.php
+END

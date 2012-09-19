@@ -11,7 +11,7 @@ dispatch(':page', 'pages'); // dispatch all other pages to pages controller. Eas
 
 dispatch_post('new' , 'createfile'); // create file
 
-dispatch_post('detail' , 'openfile'); // watch detail file
+dispatch_post('detail' , 'openfile'); // watch file
 
 
 /**

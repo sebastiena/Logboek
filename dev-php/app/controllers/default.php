@@ -14,8 +14,8 @@ function index_catchall() {
   return html('index.html.php');
 }
 
-function getTodaySheet(){
-	$bestandNaam = date("d-m-Y");
+function getTodaySheet($date){
+	$bestandNaam = $date;
 	$myFile = "assets/locales/" . $bestandNaam . ".md";
 		
 	$fh = fopen($myFile, 'r');
@@ -62,19 +62,88 @@ function openfile(){
 
 }
 
-function printDays(){
-		setlocale (LC_ALL, 'nl_NL');
-					putenv( "PHP_TZ=Europe/Amterdam" );
-					if ($handle = opendir('assets/locales')) {
-					    while (false !== ($entry = readdir($handle))) {
-					        if (strpos($entry , '.md', 1)) {
-					        	$entry = preg_replace('/\.[^.]+$/','',$entry);
-					        	echo '<form method="post" action="detail">';
-					        	echo '<input type=hidden name="bestandNaam" value = "' . $entry .'" />';
-					           	echo '<input type="submit" class="datebtn" value="' . $entry .'"/></br>'; 
-					           	echo '</form>';
-					        }
-					    }
-					    closedir($handle);
-					}
+function getNext($datumGegeven){
+
+	$arrayBestanden = array();
+
+	if ($handle = opendir('assets/locales')) {
+		while (false !== ($entry = readdir($handle))) {
+				if (strpos($entry , '.md', 1)) {
+					$entry = preg_replace('/\.[^.]+$/','',$entry);
+					array_push($arrayBestanden, $entry);
+
+				}
+		}
+		closedir($handle);
+	}
+	$momenteel = 0;
+	for ($i = 0; $i < count($arrayBestanden); $i++) {
+	    if ($arrayBestanden[$i] == $datumGegeven){
+	    	$momenteel = $i;
+	    }
+	}
+	if(($momenteel+1) == count($arrayBestanden)){
+		$momenteel = 0;
+	}else{
+		$momenteel++;
+	}
+	return $arrayBestanden[$momenteel];
+
+}
+
+function getPrev($datumGegeven){
+
+	$arrayBestanden = array();
+
+	if ($handle = opendir('assets/locales')) {
+		while (false !== ($entry = readdir($handle))) {
+				if (strpos($entry , '.md', 1)) {
+					$entry = preg_replace('/\.[^.]+$/','',$entry);
+					array_push($arrayBestanden, $entry);
+
+				}
+		}
+		closedir($handle);
+	}
+	$posmomenteel = 0;
+
+	for ($i = 0; $i < count($arrayBestanden); $i++) {
+	    if ($arrayBestanden[$i] == $datumGegeven){
+	    	$posmomenteel = $i;
+	    }
+	}
+	if(($posmomenteel) == 0){
+		$posmomenteel = (count($arrayBestanden)-1);
+	}else{
+		$posmomenteel--;
+	}
+	return $arrayBestanden[$posmomenteel];
+
+}
+
+function printDays($selectedDate){
+
+	setlocale (LC_ALL, 'nl_NL');
+	putenv( "PHP_TZ=Europe/Amterdam" );
+	if (!(isset($selectedDate))){
+		$selectedDate = date("d-m-Y");
+	}
+	
+		if ($handle = opendir('assets/locales')) {
+			while (false !== ($entry = readdir($handle))) {
+				if (strpos($entry , '.md', 1)) {
+					    $entry = preg_replace('/\.[^.]+$/','',$entry);
+					    echo '<form method="post" action="detail">';
+					    echo '<input type=hidden name="bestandNaam" value = "' . $entry .'" />';
+						    if ($entry == $selectedDate){
+						    	echo '<input type="submit" class="datebtnSelected" value="' . $entry .'"/></br>';
+						    }else{
+						    	echo '<input type="submit" class="datebtn" value="' . $entry .'"/></br>';
+							}
+					    echo '</form>';
+				}
+			}
+			closedir($handle);
+		}
+	
 }

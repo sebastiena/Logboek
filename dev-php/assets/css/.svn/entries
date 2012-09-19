@@ -2,13 +2,13 @@
 
 dir
 49
-https://sebastiena@proximity-bbdo.svn.beanstalkapp.com/sd-detachering/trunk/dev-php/assets/css
+https://sebastiena@proximity-bbdo.svn.beanstalkapp.com/sd-detachering/trunk/front/assets/css
 https://sebastiena@proximity-bbdo.svn.beanstalkapp.com/sd-detachering
 
 
 
-2012-05-21T17:46:20.216219Z
-32
+2012-05-02T15:30:55.614484Z
+7
 krisV
 
 
@@ -32,10 +32,10 @@ file
 
 
 
-2012-09-18T08:00:47.000000Z
+2012-09-18T08:00:49.000000Z
 6a333511106ac5e681c828c373349683
-2012-04-30T15:44:10.008425Z
-6
+2012-04-25T15:26:29.538914Z
+3
 krisV
 
 
@@ -66,11 +66,11 @@ file
 
 
 
-2012-09-18T08:00:47.000000Z
-1a27fac3610b1463ec78c04655628883
-2012-05-20T21:13:55.841610Z
-31
-jeroenb
+2012-09-18T08:00:49.000000Z
+d30b98e3e12bdba503bbd8265cd19245
+2012-04-27T15:42:09.820387Z
+4
+krisV
 
 
 
@@ -92,7 +92,7 @@ jeroenb
 
 
 
-4019
+2103
 
 mq.css
 file
@@ -100,10 +100,10 @@ file
 
 
 
-2012-09-18T08:00:47.000000Z
-219dd5d4fcbadb2e7d156fc0695ebc9e
-2012-05-03T15:45:13.760211Z
-9
+2012-09-18T08:00:49.000000Z
+81953114d2fb5fdd569c527a2de75511
+2012-04-27T15:42:09.820387Z
+4
 krisV
 
 
@@ -126,7 +126,7 @@ krisV
 
 
 
-3145
+2923
 
 style.less
 file
@@ -134,10 +134,10 @@ file
 
 
 
-2012-09-18T08:00:47.000000Z
-9eede030461d5e3b7450804b98a98a0d
-2012-05-21T17:46:20.216219Z
-32
+2012-09-18T08:00:49.000000Z
+226a8de8dd9c41ba08732c914036b046
+2012-05-02T15:30:55.614484Z
+7
 krisV
 
 
@@ -160,7 +160,7 @@ krisV
 
 
 
-9188
+7965
 
 boilerplate.less
 file
@@ -168,10 +168,10 @@ file
 
 
 
-2012-09-18T08:00:47.000000Z
+2012-09-18T08:00:49.000000Z
 fb551b9abe84a9d809c994181f6d85da
-2012-04-30T15:44:10.008425Z
-6
+2012-04-24T12:12:23.658476Z
+2
 krisV
 
 
@@ -202,10 +202,10 @@ file
 
 
 
-2012-09-18T08:00:47.000000Z
-803a4f4a6e535bbeeb0276f14f3159eb
-2012-05-21T17:46:20.216219Z
-32
+2012-09-18T08:00:49.000000Z
+8418f682cbee047b9e3a2d32e61108cd
+2012-05-02T15:30:55.614484Z
+7
 krisV
 
 
@@ -228,5 +228,5 @@ krisV
 
 
 
-25823
+22183
 

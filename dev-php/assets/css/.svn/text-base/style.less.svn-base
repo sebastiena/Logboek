@@ -1,6 +1,7 @@
 @import "boilerplate.less";
 @import "elements.less";
 
+
 @font-face {
     font-family:  'Swis721LtCnBTLight';
     src:  url('../fonts/swiss721bt-lightcondensed-webfont.eot');
@@ -25,13 +26,15 @@
 
 }
 
+
+
 /********************************
 VARS
 *********************************/
 
 @leftculumn-width: 230px;
 @spacing: 10px;
-@font-size-xxs: 8px;
+
 @font-size-xs: 9px;
 @font-size-s: 12px;
 @font-size-m: 14px;
@@ -39,6 +42,7 @@ VARS
 @font-size-xl: 20px;
 @font-size-xxl: 24px;
 @font-size-xxxl: 30px;
+
 
 @color-red: #ca0928;
 @color-purple: #797e9b;
@@ -59,6 +63,7 @@ VARS
 HELPERS
 *********************************/
 
+
 .pushDown(@ammount: 1){
 	margin-bottom: @spacing * @ammount;
 }
@@ -72,10 +77,11 @@ HELPERS
 	display: block;
 }
 
+
+
 /********************************
 TYPO
 *********************************/
-
 body{
 	font-size: @font-size-s;
 	line-height: @font-size-l;
@@ -85,11 +91,12 @@ body{
 
 h1, h2, h3{
 	font-family: @font-family-titlesCondensed;
-  font-weight:  normal;
-  font-style:  normal;
+    font-weight:  normal;
+    font-style:  normal;
 	padding: 0;
 	margin: 0;
 	.pushDown(2);
+
 }
 
 ul, ol{
@@ -107,6 +114,7 @@ ol{
 		font-weight: bold;
 	}
 }
+
 
 p{
 	margin-top: 0px;
@@ -137,16 +145,13 @@ h3{
 }
 
 a{
-	color: @color-purple;
+	color:  @color-purple;
 	text-decoration: underline;
 	
-	&:hover, &:hover &:visited {
+	&:hover{
 		color: @color-red;
 	}
-
-	&:visited {
-    color: @color-purple;
-	}
+	
 }
 
 /********************************
@@ -154,29 +159,14 @@ ELEMENTS
 *********************************/
 
 html,body{ 
+
 	height: 100%;
 	width: 100%;
 	background: @color-grey-lighter;
 }
 
-#language-choice {
-  margin: 0 auto;
-  width: 250px;
-  background-color: #fff;
-  position: relative;
-  top: 100px;
-  text-align: center;
-  padding: 10px 20px 20px 20px;
-  border: 1px solid #dedede;
-
-  a {
-    font-size: 14px;
-  }
-
-
-}
-
 #leftcolumn{ 
+	
 	padding: 0px 50px;
 	width: 230px;
 	border-right: 1px solid @color-grey-light;
@@ -209,12 +199,35 @@ html,body{
 						color: @color-red; 
 					}
 				}
+				
 			}
 		}
 	}
-
-	nav.mobile {
-	  display: none;
+	
+	footer{
+		position: absolute;
+		bottom: 10px;
+		nav{
+			ul{
+				li{
+					float: left;	
+					font-size: @font-size-xs;
+					margin: 0 7px 0 0;
+					
+					&:last-child{
+						margin: 0;
+					}
+					a{
+						font-size: @font-size-xs;
+						color: @color-grey-medium;
+						
+						&:hover{
+						color: @color-red;
+						}
+					}
+				}
+			}
+		}
 	}
 }
 
@@ -226,7 +239,8 @@ html,body{
 	z-index: 1;
 	top: 0;
 	left: 0;
-	.clearfix();	
+	.clearfix();
+	
 	
 	#content-wrapper{
 		padding-left: 330px;
@@ -248,12 +262,12 @@ html,body{
 				position: relative;
 				
 				h1{
-					color:  @color-red;
+					background: @color-red;
+					color: white;
 					font-family: Arial, Helvetica, sans-serif;
 					font-size: 14px;
-					font-weight:bold;
 					display: inline-block;
-					padding: 0px 10px;
+					padding: 10px 30px;
 					position: absolute;
 					bottom: 0px;
 					left: 0;
@@ -262,14 +276,15 @@ html,body{
 			}
 			
 			section{
-				padding: 50px 50px 30px 50px;
-				margin-bottom:20px;
+				padding: 50px;
+				
 				h1{
 					border-left: @color-red 4px solid;
 					padding-left: 15px;
 				}	
 			}
 		}
+		
 		
 		aside{
 
@@ -278,9 +293,9 @@ html,body{
 			float:left;
 			
 			section{
-				padding: 50px 50px 30px 50px;
-				margin-bottom:20px;
+				padding: 50px;
 			}
+			
 
 			h1{
 				border-left: white 4px solid;
@@ -299,66 +314,15 @@ html,body{
 			img{ 
 				float:right;
 			}
+			
 		}
 	}
-}
-
-footer {
-  width: 250px;
-  position: absolute;
-  bottom: 10px;
-
-  .clearfix;
-
-  nav{
-    font-size: @font-size-xxs;
-    margin: 0 7px 0 0;
-
-    &:last-child{
-      margin: 0;
-    }
-
-    a{ 
-      font-size: @font-size-xs;
-      color: @color-grey-medium;
-
-      &:hover{
-        color: @color-red;
-      }
-    }
-  }
-
-  #language-switch {
-    display: inline;
-		font-size:@font-size-xxs;
-  }
-}
-
-footer.mobile {
-  display: none;
-}
-
-#personal-code #loader {
-  display: none;
-  img { float: none; }
-}
-
-#personal-code #error {
-  display: none;
-  color: white;
-  background-color: red;
-  border: 1px solid darken(red, 15%);
-  padding: 5px 8px;
-}
-
-#personal-code #thanks {
-  display: none;
-  font-style: italic;
 	
-	&.show{
-		display: block;
-	}
+	
+	
+
 }
+
 
 /******************
 STYLING
@@ -381,11 +345,7 @@ STYLING
 	
 	&:hover{
 		background: @color-yellow + #111;
-		color:white !important;
-	}
-	
-	&:active, &:visited{
-		color: white;
+		color:white;
 	}
 }
 
@@ -401,8 +361,9 @@ STYLING
 	text-decoration: none;
 	cursor: pointer;
 	
-	&:visited, &:hover, &:visited &:hover{
+	&:hover{
 		color: white;
+		
 	}
 }
 
@@ -418,13 +379,8 @@ input[type=text]{
 input[type=submit]{
 	.cta;
 	padding:10px 20px;
-
-	&.disabled {
-	  background-color: grey;
-	  color: #333;
-	  cursor: wait;
-	}
 }
+
 
 .col{
 	display: block;
@@ -437,12 +393,10 @@ input[type=submit]{
 		max-width:390px;
 	}
 	
-	p{ 
-    text-align:justify;  
-    -webkit-column-break-inside: avoid;
-    -moz-column-break-inside: avoid;
-    column-break-inside: avoid;
-  }
+	p{
+		text-align:justify;  
+		}
+	
 
 	.cta{
 		-webkit-column-break-inside: avoid;
@@ -452,29 +406,31 @@ input[type=submit]{
 } 
 
 .first.column{
+	
 	p{
 		padding-right:20px;
 	}
 }
 
+
 .nobreakcol{
-  -webkit-column-break-after:never;
-  -moz-column-break-after:never;
-  column-break-after:never;
+	
+	 -webkit-column-break-after:never;
+    -moz-column-break-after:never;
+    column-break-after:never;
 }
+
 
 /*accordion voor vragen pagina*/
 
 details summary::-webkit-details-marker { display:none; }
 
-details{	
+
+details{
+	
 
 	> * {
 		display: none;
-	}
-	
-	&:last-of-type{
-		.pushDown(2);
 	}
 
 	display:block;
@@ -489,7 +445,7 @@ details{
 		background:url(../img/arrow.jpg) no-repeat;
 		background-position:15px 4px;
 		padding-left:30px;
-		font-family: @font-family-titlesCondensed;
+			font-family: @font-family-titlesCondensed;
     font-weight:  normal;
     font-style:  normal;
 		display:block;
@@ -500,12 +456,17 @@ details{
 		
 	div{
 		visibility:hidden;
+		
 		padding:20px 20px 20px 30px;
-	}
+		}
+		
+
+
 } 
 
 details.open, details[open=open] {
 		
+	
 	summary {
 		margin-bottom:10px;
 		background:url(../img/arrow_down.jpg) no-repeat;
@@ -518,18 +479,11 @@ details.open, details[open=open] {
 		}
 	}
 	
-	a{
-			color:@color-yellow;
-			font-weight:bold;	
-			
-			&:hover, &:active, &:visited{
-				color:@color-yellow;
-			}
-	}
-	
 	div{
 		visibility:visible;
-  }
+		}
+
+			
 }
 
 @import "mq.less";

@@ -2,13 +2,13 @@
 
 dir
 49
-https://sebastiena@proximity-bbdo.svn.beanstalkapp.com/sd-detachering/trunk/dev-php/assets/img
+https://sebastiena@proximity-bbdo.svn.beanstalkapp.com/sd-detachering/trunk/front/assets/img
 https://sebastiena@proximity-bbdo.svn.beanstalkapp.com/sd-detachering
 
 
 
-2012-05-24T12:07:06.345328Z
-33
+2012-05-02T15:30:55.614484Z
+7
 krisV
 
 
@@ -34,8 +34,8 @@ file
 
 2012-09-18T08:00:49.000000Z
 64587d4e58942f44625ddf9956242109
-2012-04-30T15:44:10.008425Z
-6
+2012-04-25T15:26:29.538914Z
+3
 krisV
 has-props
 
@@ -102,8 +102,8 @@ file
 
 2012-09-18T08:00:49.000000Z
 ab45c46dc3ed12b619cc66bee9bf77ef
-2012-04-30T15:44:10.008425Z
-6
+2012-04-25T15:26:29.538914Z
+3
 krisV
 has-props
 
@@ -136,8 +136,8 @@ file
 
 2012-09-18T08:00:49.000000Z
 59970beac39f08bfccd102d253eac300
-2012-04-30T15:44:10.008425Z
-6
+2012-04-27T15:42:09.820387Z
+4
 krisV
 has-props
 
@@ -170,8 +170,8 @@ file
 
 2012-09-18T08:00:49.000000Z
 bc1bba204c63350bb113fb813808cf30
-2012-04-30T15:44:10.008425Z
-6
+2012-04-25T15:26:29.538914Z
+3
 krisV
 has-props
 
@@ -203,9 +203,9 @@ file
 
 
 2012-09-18T08:00:49.000000Z
-2724b3ab899cb2ff2dcb39c74be362bc
-2012-05-02T15:30:55.614484Z
-7
+16e797f3fb5e04bf93ef67510845479c
+2012-04-24T12:12:23.658476Z
+2
 krisV
 has-props
 
@@ -228,7 +228,7 @@ has-props
 
 
 
-2174
+138
 
 arrow.jpg
 file
@@ -264,40 +264,6 @@ has-props
 
 4517
 
-visual_box_fr-BE.png
-file
-
-
-
-
-2012-09-18T08:00:49.000000Z
-56001ee11d51b1e3e0c81135bc463fde
-2012-05-24T12:07:06.345328Z
-33
-krisV
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-51854
-
 apple-touch-icon.png
 file
 
@@ -306,8 +272,8 @@ file
 
 2012-09-18T08:00:49.000000Z
 3c8fdd14ec95477d4cd4b9c31aa4d79d
-2012-04-30T15:44:10.008425Z
-6
+2012-04-24T12:12:23.658476Z
+2
 krisV
 has-props
 
@@ -332,41 +298,7 @@ has-props
 
 1893
 
-ajax-loader.gif
-file
-
-
-
-
-2012-09-18T08:00:49.000000Z
-827a87d48374e5043519bf6907f5285b
-2012-05-08T13:56:10.927055Z
-29
-jeroenb
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-847
-
-visual_box_nl-BE.png
+visual_box.png
 file
 
 
@@ -374,8 +306,8 @@ file
 
 2012-09-18T08:00:49.000000Z
 4493dae8dfb1fe1083d61f4f4e0a46f1
-2012-05-24T12:07:06.345328Z
-33
+2012-04-25T15:26:29.538914Z
+3
 krisV
 has-props
 

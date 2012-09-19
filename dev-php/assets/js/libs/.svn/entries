@@ -2,13 +2,13 @@
 
 dir
 49
-https://sebastiena@proximity-bbdo.svn.beanstalkapp.com/sd-detachering/trunk/dev-php/assets/js/libs
+https://sebastiena@proximity-bbdo.svn.beanstalkapp.com/sd-detachering/trunk/front/assets/js/libs
 https://sebastiena@proximity-bbdo.svn.beanstalkapp.com/sd-detachering
 
 
 
-2012-05-02T15:30:55.614484Z
-7
+2012-04-27T15:42:09.820387Z
+4
 krisV
 
 
@@ -32,10 +32,10 @@ file
 
 
 
-2012-09-18T08:00:49.000000Z
+2012-09-18T08:00:50.000000Z
 b8d64d0bc142b3f670cc0611b0aebcae
-2012-04-30T15:44:10.008425Z
-6
+2012-04-24T12:12:23.658476Z
+2
 krisV
 
 
@@ -60,50 +60,16 @@ krisV
 
 94840
 
-jquery.easing.1.3.js
-file
-
-
-
-
-2012-09-18T08:00:49.000000Z
-a6f75e0c043a2a087837e5c113cc6f7a
-2012-05-02T15:30:55.614484Z
-7
-krisV
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8301
-
 lib_columns.js
 file
 
 
 
 
-2012-09-18T08:00:49.000000Z
+2012-09-18T08:00:50.000000Z
 125b98f64ed65bb0a9b5ef8c18d3add0
-2012-04-30T15:44:10.008425Z
-6
+2012-04-25T15:26:29.538914Z
+3
 krisV
 
 
@@ -134,10 +100,10 @@ file
 
 
 
-2012-09-18T08:00:49.000000Z
+2012-09-18T08:00:50.000000Z
 57a9a4999de1fe88d78e61a3655b85c6
-2012-04-30T15:44:10.008425Z
-6
+2012-04-27T15:42:09.820387Z
+4
 krisV
 
 
@@ -162,50 +128,16 @@ krisV
 
 8807
 
-jquery.localscroll-1.2.7-min.js
-file
-
-
-
-
-2012-09-18T08:00:49.000000Z
-8996adc9c821bcad4edcbee412c26313
-2012-05-02T15:30:55.614484Z
-7
-krisV
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1560
-
 modernizr-2.5.3.min.js
 file
 
 
 
 
-2012-09-18T08:00:49.000000Z
+2012-09-18T08:00:50.000000Z
 c8f6e050821bd993c61cf2bbd990b632
-2012-04-30T15:44:10.008425Z
-6
+2012-04-24T12:12:23.658476Z
+2
 krisV
 
 
@@ -230,50 +162,16 @@ krisV
 
 10286
 
-jquery.scrollTo-1.4.2-min.js
-file
-
-
-
-
-2012-09-18T08:00:49.000000Z
-4aa3e2dfa3123d9373c817b77456aa25
-2012-05-02T15:30:55.614484Z
-7
-krisV
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2262
-
 dd_belatedpng.zip
 file
 
 
 
 
-2012-09-18T08:00:49.000000Z
+2012-09-18T08:00:50.000000Z
 bfb4665aca8f447af9a539f345069842
-2012-04-30T15:44:10.008425Z
-6
+2012-04-24T12:12:23.658476Z
+2
 krisV
 has-props
 
@@ -304,10 +202,10 @@ file
 
 
 
-2012-09-18T08:00:49.000000Z
+2012-09-18T08:00:50.000000Z
 4222fd908883670f16c397881ce9a65a
-2012-04-30T15:44:10.008425Z
-6
+2012-04-24T12:12:23.658476Z
+2
 krisV
 
 

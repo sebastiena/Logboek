@@ -1,71 +1,59 @@
 K 25
 svn:wc:ra_dav:version-url
-V 52
-/sd-detachering/!svn/ver/33/trunk/dev-php/assets/img
+V 49
+/sd-detachering/!svn/ver/7/trunk/front/assets/img
 END
 logo.jpg
 K 25
 svn:wc:ra_dav:version-url
-V 60
-/sd-detachering/!svn/ver/6/trunk/dev-php/assets/img/logo.jpg
+V 58
+/sd-detachering/!svn/ver/3/trunk/front/assets/img/logo.jpg
 END
 arrow_down.jpg
 K 25
 svn:wc:ra_dav:version-url
-V 66
-/sd-detachering/!svn/ver/7/trunk/dev-php/assets/img/arrow_down.jpg
+V 64
+/sd-detachering/!svn/ver/7/trunk/front/assets/img/arrow_down.jpg
 END
 headerbg.jpg
 K 25
 svn:wc:ra_dav:version-url
-V 64
-/sd-detachering/!svn/ver/6/trunk/dev-php/assets/img/headerbg.jpg
+V 62
+/sd-detachering/!svn/ver/3/trunk/front/assets/img/headerbg.jpg
 END
 button_speldoos.jpg
 K 25
 svn:wc:ra_dav:version-url
-V 71
-/sd-detachering/!svn/ver/6/trunk/dev-php/assets/img/button_speldoos.jpg
+V 69
+/sd-detachering/!svn/ver/4/trunk/front/assets/img/button_speldoos.jpg
 END
 video.jpg
 K 25
 svn:wc:ra_dav:version-url
-V 61
-/sd-detachering/!svn/ver/6/trunk/dev-php/assets/img/video.jpg
+V 59
+/sd-detachering/!svn/ver/3/trunk/front/assets/img/video.jpg
 END
 favicon.png
 K 25
 svn:wc:ra_dav:version-url
-V 63
-/sd-detachering/!svn/ver/7/trunk/dev-php/assets/img/favicon.png
+V 61
+/sd-detachering/!svn/ver/2/trunk/front/assets/img/favicon.png
 END
 arrow.jpg
 K 25
 svn:wc:ra_dav:version-url
-V 61
-/sd-detachering/!svn/ver/7/trunk/dev-php/assets/img/arrow.jpg
-END
-visual_box_fr-BE.png
-K 25
-svn:wc:ra_dav:version-url
-V 73
-/sd-detachering/!svn/ver/33/trunk/dev-php/assets/img/visual_box_fr-BE.png
+V 59
+/sd-detachering/!svn/ver/7/trunk/front/assets/img/arrow.jpg
 END
 apple-touch-icon.png
 K 25
 svn:wc:ra_dav:version-url
-V 72
-/sd-detachering/!svn/ver/6/trunk/dev-php/assets/img/apple-touch-icon.png
+V 70
+/sd-detachering/!svn/ver/2/trunk/front/assets/img/apple-touch-icon.png
 END
-ajax-loader.gif
+visual_box.png
 K 25
 svn:wc:ra_dav:version-url
-V 68
-/sd-detachering/!svn/ver/29/trunk/dev-php/assets/img/ajax-loader.gif
-END
-visual_box_nl-BE.png
-K 25
-svn:wc:ra_dav:version-url
-V 73
-/sd-detachering/!svn/ver/33/trunk/dev-php/assets/img/visual_box_nl-BE.png
+V 64
+/sd-detachering/!svn/ver/3/trunk/front/assets/img/visual_box.png
 END

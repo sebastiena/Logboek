@@ -2,14 +2,14 @@
 
 dir
 49
-https://sebastiena@proximity-bbdo.svn.beanstalkapp.com/sd-detachering/trunk/dev-php/assets/js
+https://sebastiena@proximity-bbdo.svn.beanstalkapp.com/sd-detachering/trunk/front/assets/js
 https://sebastiena@proximity-bbdo.svn.beanstalkapp.com/sd-detachering
 
 
 
-2012-09-17T10:36:30.029765Z
-49
-jeroenb
+2012-05-02T15:30:55.614484Z
+7
+krisV
 
 
 
@@ -32,10 +32,10 @@ file
 
 
 
-2012-09-18T08:00:49.000000Z
-76f3d1303668c9b4a9bca736a4b1b7c3
-2012-05-24T13:40:48.512767Z
-34
+2012-09-18T08:00:50.000000Z
+4198768b5f5ef7a81870a9b2155abae6
+2012-05-02T15:30:55.614484Z
+7
 krisV
 
 
@@ -58,42 +58,8 @@ krisV
 
 
 
-3800
+2193
 
 libs
 dir
-
-tracking.js
-file
-
-
-
-
-2012-09-18T08:00:49.000000Z
-6c3f3f4a7682b98ba02d47ed7a113bc9
-2012-06-04T08:34:05.995172Z
-42
-jeroenb
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5139
 

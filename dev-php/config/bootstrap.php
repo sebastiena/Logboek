@@ -3,12 +3,13 @@
 /**
  * You can place all the Zend libraries here, you want to be loaded.
  */
-Zend_Loader::loadClass('Zend_Db');
+
+// Zend_Loader::loadClass('Zend_Db');
 
 // Zend_Loader::loadClass('Zend_Soap_Client');
 
-Zend_Loader::loadClass('Zend_Mail');
-Zend_Loader::loadClass('Zend_Mail_Transport_Smtp');
+// Zend_Loader::loadClass('Zend_Mail');
+// Zend_Loader::loadClass('Zend_Mail_Transport_Postmark');
 // 
 // Zend_Loader::loadClass('Zend_Validate_EmailAddress');
 // Zend_Loader::loadClass('Zend_Validate_Digits');
@@ -37,4 +38,5 @@ function config() {
 }
 
 function config_post() {
+
 }

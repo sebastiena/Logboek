@@ -13,6 +13,23 @@
 # ============================================================================ #
 
 /**
+ * Helper _c function defined outside of the apploader class for easy of use.
+ * Parses the options found in the config.yml
+ */
+function _c() {
+  $result = ProximityApp::$settings;
+
+  for($i = 0; $i < func_num_args(); $i++) {
+    if(isset($result[func_get_arg($i)]))
+      $result = $result[func_get_arg($i)];
+    else
+      return NULL;
+  }
+
+  return $result;
+}
+
+/**
  * Logs input to the console (if available, won't crash on IE)
  *
  * @param $msg  the input for the log, can be anything from a string to an object
@@ -26,8 +43,9 @@ function _log($msg) {
   $out .= 'console.log(' . json_encode($msg) . '); }';
   $out .= "\n//]]></script>";
 
-  if(_c('verbose')) 
+  if(_c('verbose')) {
     echo($out);
+  }
 }
 
 // Splits the url into parts.
@@ -43,7 +61,7 @@ function _page($id = 0) {
   $parts = _url_parts();
 
   // if first part is a lang (we match it with the lang array from MultiLang)
-  if(count($parts) > 0 && preg_match(Multilang::getInstance()->langs_as_regexp(), $parts[0]))
+  if(count($parts) > 0 && preg_match(Multilang::get_instance()->langs_as_regexp(), $parts[0]))
     array_shift($parts);
 
   // if the given index is found in the url
@@ -63,6 +81,27 @@ function _get_active($page_name, $id = 0) {
 
 function _asset($path) {
   $path = preg_replace("/^\//", "", $path);
+  $path = strlen($path) === 0 ? '' : '/' . $path;
+  $path = (BASE_PATH == '/' ? '' : BASE_PATH) . $path;
+  $path = preg_replace("/\/\//", "/", $path);
 
-  return (BASE_PATH == '/' ? '' : BASE_PATH) . '/' . $path;
+  return $path;
+}
+
+function _url($value, $lang = '') {
+  $lang = strlen($lang) == 0 ? Multilang::get_instance()->get_lang() : $lang;
+
+  return url_for($lang . '/' . $value);
+}
+
+function _h_option_select($value1, $value2) {
+  echo ($value1 == $value2) ? 'selected="selected"' : '';
+}
+
+function get_db() {
+  return Database::get_instance()->get_db();
+}
+
+function _protect_post($pass = true) {
+  CSRF::verify_request($pass);
 }
